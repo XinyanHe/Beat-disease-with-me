@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&display=swap');
+.profile{
+    position: absolute;
+    top: 4.2%;
+    left: 92%;
+    background: #2f3640;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url("assets/sponge.png");
+}
+
+#switchBlock{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 19%;
+    vertical-align: top}
+
+.switchButton{
+    font-family: "Montserrat", sans-serif;
+    color: #00004d;
+    background: transparent;
+    margin-bottom: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 0px;
+}
+.active{
+    background-color: #00004d;
+    color: white;
+    border: transparent;
+    }
+
+#stateComponent {
+    display: inline-block;
+    width: 60%;
+}

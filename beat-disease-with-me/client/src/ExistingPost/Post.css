@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.bannerPicPost {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-left: 70px;
+	margin-right: 10px;
+	margin-top: 60px;
+}
+
+#postUser {
+	width:100px;
+	font-weight: bold;
+  margin-top: 10px;
+  margin-left: 70px;
+  font-family: "Montserrat", sans-serif;
+  color: #00004d;
+  font-size: 20px;
+	text-align: center;
+}
+
+.totalLike {
+   margin-top: 10px;
+   margin-left: 70px;
+	width: 100px;
+   font-size: 20px;
+	text-align: center;
+   color: #00004d;
+}
+
+.like {
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.dislike {
+	margin-left: 100px;
+	margin-top: -10px;
+}
+
+#comment {
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+	font-size: 80%;
+	background-color: transparent;
+	border: none;
+	opacity: 0.7;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+#postTitle {
+  width: 60%;
+  font-size: 35px;
+  margin-left: 250px;
+  margin-top: -120px;
+  white-space: pre-wrap;
+  font-family: "Montserrat", sans-serif;
+  color: #00004d;
+  opacity: 0.6;
+}
+
+.postContentContainer {
+  margin-left: 240px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+#postContent {
+  font-size: 18px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  font-family: "Montserrat", sans-serif;
+  white-space: pre-wrap;
+  color: #00004d;
+  line-height: 1.6;
+}
+
+.hashtag {
+	color: 	#00004d;
+	opacity: 0.4;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
+
+#tagContainer {
+	position: absolute;
+	width: max-content;
+	left: 70%;
+	margin-top: 10px;
+}
+
+.dislike:hover,
+.like:hover,
+.comment:hover {
+  color: #2EBDD1;
+}
+
+.liked {
+	color: #2EBDD1;
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.disliked {
+	color: #2EBDD1;
+	margin-left: 100px;
+	margin-top: -10px;
+}
+
+
+#commentNum {
+	margin-left: 40px;
+   font-family: "Montserrat", sans-serif;
+   color: #00004d;
+   font-size: 23px;
+   opacity: 0.6;
+}
+
+.realComment{
+	overflow: auto;
+	border-bottom: 1px solid #e0e0eb;
+	min-height: 100px;
+}
+
+.commentIconContainer {
+	margin-left: 80px;
+	float: left;
+}
+
+.commentIcon {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: 5px;
+}
+
+.commentUser {
+	text-align: center;
+	font-size: 15px;
+	font-family: "Montserrat", sans-serif;
+  	color: #00004d;
+  	opacity: 0.5;
+}
+
+.commentContent {
+	margin-top: 15px;
+	margin-left: 25px;
+  	width: 60%;
+  	border-radius: 10px;
+  	font-size: 16px;
+	float: left;
+}
+
+.commentText {
+	font-family: "Montserrat", sans-serif;
+  	color: #00004d;
+  	opacity: 0.6;
+}
+
+.yourComment {
+	margin-left: 40px;
+	border-bottom: 1px solid #e0e0eb;
+}
+
+#addComment {
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+}
+
+#summitButton {
+	font-family: "Montserrat", sans-serif;
+	color: #edf0f1;
+	font-weight: bold;
+	font-size: 105%;
+	background-color: #00004d;
+	width: 100px;
+	height: 30px;
+}
+
+.blank1 {
+	height: 70px;
+}
+
+.blank2 {
+	height: 10px;
+}
+
+.alert2 {
+    padding: 15px;
+    border: 1px solid transparent;
+	border-radius: 4px;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: -2%
+}

@@ -1,0 +1,24 @@
+.tableContentAdmin {
+    margin-top: 40px;
+    width: 74%;
+}
+
+#certificatePic {
+	width: 150px;
+	height: 100px;
+}
+
+#certificatePic:hover {
+  transform: scale(5);
+}
+
+.authorize {
+    margin-left: -100px;
+}
+
+.decline {
+    margin-left: -100px;
+    margin-top: 25px;
+}
+
+

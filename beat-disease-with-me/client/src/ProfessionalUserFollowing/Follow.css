@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#followName {
+  margin-top: 5px;
+  margin-left: 70px;
+  width: 200px;
+  font-family: "Montserrat",sans-serif;
+  color: #00004d;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bannerPic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+.description {
+  margin-left: 360px;
+  margin-top: -250px;
+  width: 60%;
+  color: #00004d;
+  opacity: 0.7;
+}
+
+.followingCertificate {
+  border-radius: 10px;
+  margin-left: 360px;
+}
+
+#followingCertificatePic {
+  max-width: 100%;
+}
+
+#followDescription {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#follow {
+  color: #3399FF;
+  font-family: "Helvetica";
+  font-size: 15pt;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #3399FF;
+  border-radius: 3px; 
+  position: absolute;
+  margin-left: 120px;
+  cursor: hand;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+#unfollow {
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 15pt;
+  background-color: rgb(157, 22, 22);
+  border: 2px solid;
+  border-color: #ffffff;
+  border-radius: 3px; 
+  position: absolute;
+  margin-left: 120px;
+  cursor: hand;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 15px;
+}

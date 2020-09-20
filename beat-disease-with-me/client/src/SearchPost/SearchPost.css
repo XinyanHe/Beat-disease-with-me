@@ -1,0 +1,77 @@
+.create{
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+
+
+
+.profile{
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  background: #2f3640;
+  height: 60px;
+	width: 60px;
+  border-radius: 50%;
+  background-image: url("./sponge.png");
+}
+
+
+#postList {
+  margin-left:30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#TagFilter {
+  float: left;
+  /* position: absolute;;
+  margin-left: 630px;
+  margin-top: 60px; */
+}
+
+#LocationFilter {
+  /* position: absolute; */
+  float: left;
+  /* margin-left: 400px;
+  margin-top: -55px; */
+}
+
+#posttitle {
+
+  text-decoration: none !important;
+  margin-left:0px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00004d;
+
+}
+
+#postContentOverview {
+
+  text-decoration: none !important;
+  margin-left:70px;
+  margin-top: 10px;
+  margin-right: 60px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+	color: #00004d;
+  opacity: 0.7;
+}
+
+.filter{
+  display: inline-block;
+}
+
+#likes{
+  color:#6466b4;
+  float: left;
+}
+
+#date{
+  color:#6466b4;
+  display: inline-block;
+  margin-left: 15px;
+}

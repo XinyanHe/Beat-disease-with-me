@@ -1,0 +1,171 @@
+@font-face {
+    font-family: RobtoCondensed;
+    src: url("../assets/roboto-condensed.light.ttf");
+    font-weight: 800;
+}
+
+.RegisterBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /*opacity: 0.7;*/
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("../assets/coronavirus-4.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: RobtoCondensed;
+}
+
+.RegRegisterForm {
+    width: 340px;
+    height: 540px;
+    opacity: 0.95;
+    background: #ffffff;
+    color: #00004d;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 40px;
+    border-radius: 20px;
+}
+
+.ProRegisterForm {
+    width: 360px;
+    height: 770px;
+    background: #ffffff;
+    color: #00004d;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border-radius: 20px;
+    opacity: 0.95;
+}
+
+.Createh4 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #6466b4;
+    font-weight: bolder;
+}
+
+.Createh2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.FormField{
+    border: none;
+    /*border-bottom: 1px solid #fff;*/
+    background: transparent;
+    outline: none;
+    /*height: 40px;*/
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.FormInput{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 250px;
+    background: #F8F8FF;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.FormInput[name="password"]{
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.FormInput[name="confirmPassword"]{
+    text-indent: 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.hiddenButton{
+    visibility: hidden;
+}
+
+.FormTextarea{
+    border: none;
+    outline: none;
+    height: 100px;
+    width: 250px;
+    background: #F8F8FF;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.selectButton{
+    margin-right: 5px;
+}
+
+.selectCert{
+    margin-bottom: 5px;
+}
+
+.FormSubmit{
+    width: 250px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0f3c6f;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 8px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.FormSubmit:active{
+
+    background: #0f3c6f;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
+
+.FormField a {
+    text-decoration: none;
+}
+
+.warning-fade {
+    opacity: 0;
+    color: #d23b3b;
+    font-size: 17px;
+    animation-name: warning-animation;
+    animation-duration:3s;
+}
+
+
+@keyframes warning-animation {
+    0% {
+        opacity: 0;
+    }
+    30%{
+        opacity: 100;
+    }
+}

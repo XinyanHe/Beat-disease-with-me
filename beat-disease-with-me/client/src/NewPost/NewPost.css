@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&display=swap');
+
+#title {
+	margin-left: 60px;
+	margin-top: 50px;
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+}
+
+#post_title {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top:15px;
+	width:90%;
+}
+
+.postInstruction {
+	margin-left: 60px;
+	margin-top: 30px;
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+}
+
+#postBody {
+	margin-left: 60px;
+	margin-top: 15px;
+	width:90%;
+	height:300px;
+}
+
+.postInstructionSubtitle {
+	margin-left: 60px;
+	margin-top: 15px;
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+	opacity: 0.5;
+}
+
+#addPostButton {
+	font-family: "Montserrat", sans-serif;
+	margin-top: 160px;
+	color: #edf0f1;
+	font-weight: bold;
+	font-size: 103%;
+	background-color: #00004d;
+	width: 140px;
+	height: 40px;
+	margin-left: 60px;
+}
+
+.selectBar {
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+.selectBar select {
+	width: 300px;
+}
+
+#dateSelector {
+	margin-top: -200px;
+	margin-left: 470px;
+}
+
+#expire {
+	font-family: "Montserrat", sans-serif;
+	color: #00004d;
+	opacity: 0.4;
+}
+
+.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+	border-radius: 4px;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: -10%
+}
+
+.alert-success 
+{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger 
+  {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }

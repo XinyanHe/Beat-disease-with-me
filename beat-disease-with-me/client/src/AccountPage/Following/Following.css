@@ -1,0 +1,14 @@
+#unfollowButton {
+    background-color: red;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#unfollowButton:hover {
+     background: -webkit-linear-gradient(top, #DD4B39, #C53727);
+     background: -moz-linear-gradient(top, #DD4B39, #C53727);
+     background: -ms-linear-gradient(top, #DD4B39, #C53727);
+     border: 1px solid #AF301F;
+}

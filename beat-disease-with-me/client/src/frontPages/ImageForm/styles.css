@@ -1,0 +1,37 @@
+/* Styles for the ImageForm React component */
+.imglabel {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.imginput {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.image-form {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .image-form__field {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  .image-form__submit-button {
+    background-color: #0f3c6f;
+    color: #ffffff;
+
+  }
+  
+  .image-form__message--success {
+    color: green;
+  }
+  
+  .image-form__message--error {
+    color: red;
+  }
+  

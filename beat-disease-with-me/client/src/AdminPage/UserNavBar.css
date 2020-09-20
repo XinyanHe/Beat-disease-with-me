@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Permanent+Marker&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.webLogo {
+	font-family: 'Permanent Marker';
+	color: white;
+	font-size: 35px;
+}
+
+li, .bar {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #00004d;
+}
+
+.navList {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navList li {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+
+.navList li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.navList li a:hover {
+	color: #B0E0E6;
+}
+
+.navList li .navList li {
+	display: none;
+	background-color: #00004d;
+	opacity: 0.9;
+}
+
+.navList li:hover .navList li {
+	display: block;
+}
+

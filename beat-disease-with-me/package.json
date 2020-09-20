@@ -1,0 +1,28 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "setup": "npm install && cd client && npm install && cd ..",
+        "build-run": "cd client && npm run build && cd .. && node server.js",
+        "start": "node server.js",
+        "heroku-postbuild": "cd client && npm install && npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.4.2",
+        "connect-multiparty": "^2.0.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "mongodb": "^3.5.9",
+        "mongoose": "^5.9.26",
+        "react": "^16.13.1",
+        "react-scripts": "^3.4.3",
+        "validator": "^13.1.1"
+    }
+}
